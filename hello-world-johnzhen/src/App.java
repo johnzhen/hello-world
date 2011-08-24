@@ -1,4 +1,8 @@
-
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+//version 1.1 -- johnzhen
 public class App {
 
 	/**
@@ -7,6 +11,17 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("abc-development");
+		DateFormat formatter;
+		Date saleDateFrom = new Date();
+		Date saleDateTo = new Date();
+		formatter = new SimpleDateFormat("dd-MM-yyyy");
+		try {
+			saleDateFrom = (Date) formatter.parse("01-01-2011");
+			saleDateTo = (Date) formatter.parse("01-08-2011");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
