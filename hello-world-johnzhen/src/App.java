@@ -2,7 +2,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//version 1.8-- johnzhen
+//version 1.10-- zhiyizhen
 public class App {
 
 	/**
@@ -10,7 +10,7 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("abc-development");
+		System.out.println("abc-development 1.10");
 		DateFormat formatter;
 		Date saleDateFrom = new Date();
 		Date saleDateTo = new Date();
