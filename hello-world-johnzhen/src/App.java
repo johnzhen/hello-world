@@ -2,8 +2,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//version 2.1.2-- zhiyizhen and version 2.1.1-- johnzhen
-
+//version 2.2-- johnzhen
 public class App {
 
 	/**
